@@ -1,0 +1,145 @@
+/* Estilos globales */
+body {
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos del encabezado de sección */
+.section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./ima/fondo.jpg'); 
+    background-size: cover;
+    background-position: center;
+    min-height: 900px; /* Ajusta la altura según tus necesidades */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos de la sección de servicios */
+.services {
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.services h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.services ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.services li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Estilos del título de la sección */
+.section-title {
+    text-align: center;
+    font-size: 32px; /* Tamaño del título de la sección */
+    margin-bottom: 20px;
+}
+
+/* Estilos para los enlaces */
+.back-link,
+.custom-link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #f4d800;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.back-link:hover,
+.custom-link:hover {
+    background-color: #43424272;
+    border: 1px solid #00a6ff; /* Cambiar el borde al hacer hover */
+    color: #fff; /* Cambiar el color del texto al hacer hover */
+}
+
+/* Estilos para el enlace "Solicitar Servicios" */
+.custom-link {
+    display: inline-block;
+    text-decoration: none;
+    justify-content: left;
+    padding: 10px 20px;
+    border: 1px solid #f4d800;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.custom-link:hover {
+    background-color: #43424272;
+}
+
+/* Estilos para la lista de servicios */
+.service-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    gap: 20px;
+}
+
+.service-list li {
+    width: 100%;
+    margin: 10px 0;
+    margin-bottom: 20px
+}
+
+#foo {
+    text-align: center;
+    padding: 10px;
+    background-color: #1b1c1d;
+    color: #8b8e90;
+}
+
+.service-list-container {
+    max-width: 90%; /* Reduzca el ancho máximo para pantallas más pequeñas */
+    width: 100%;
+    padding: 20px;
+    background-color: #43424272;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(12, 78, 164);
+    border-top: 1px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+/* Consultas de medios para tamaños de pantalla más pequeños */
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .services h2 {
+        font-size: 20px;
+    }
+
+    .services li {
+        font-size: 16px;
+    }
+}

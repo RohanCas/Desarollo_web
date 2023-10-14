@@ -1,0 +1,107 @@
+/* Estilos generales */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para la sección principal */
+.section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('imagenes/6203606.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 90%; /* Reduzca el ancho máximo para pantallas más pequeñas */
+    width: 100%;
+    padding: 20px;
+    background-color: #43424272;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(12, 78, 164);
+    border-top: 1px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+/* Estilos para el título */
+.section-title {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* Estilos para la lista de productos */
+.products ul {
+    list-style: none;
+    padding: 0;
+    color: #ffffff;
+}
+
+.products li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+.products li img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+/* Estilos para los enlaces */
+.back-link,
+.custom-link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #f4d800;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 20px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.back-link:hover,
+.custom-link:hover {
+    background-color: #43424272;
+    border: 1px solid #00a6ff;
+    color: #fff;
+}
+
+#foo {
+    text-align: center;
+    padding: 10px;
+    background-color: #1b1c1d;
+    color: #8b8e90;
+}
+
+td, th {
+    color: #ffffff;
+}
+
+/* Consultas de medios para tamaños de pantalla más pequeños */
+@media screen and (max-width: 768px) {
+    .products {
+        text-align: left;  /* Reduzca el espacio de relleno para pantallas más pequeñas */
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .products li {
+        font-size: 16px;
+    }
+}
