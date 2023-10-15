@@ -11,17 +11,41 @@ form.addEventListener('submit', function (event) {
     const correo = document.getElementById('correo').value;
     const mensaje = document.getElementById('mensaje').value;
 
-    // Crear el mensaje que se mostrará en la alerta
+    // Crear el mensaje que se mostrará en la primera alerta
     const alertMessage = `
     Nombre: ${nombre}
     Correo: ${correo}
     Mensaje: ${mensaje}
     `;
 
-    // Mostrar la alerta con los datos del formulario
+    // Mostrar la primera alerta con los datos del formulario
     alert(alertMessage);
 
     // Puedes agregar aquí cualquier lógica adicional, como enviar los datos a un servidor.
+
+    // Crear un objeto FormData para enviar los datos del formulario
+    const formData = new FormData();
+    formData.append('nombre', nombre);
+    formData.append('correo', correo);
+    formData.append('mensaje', mensaje);
+
+    // Crear una solicitud AJAX
+    const xhr = new XMLHttpRequest();
+    xhr.open('POST', 'guardar_datos.php', true);
+
+    // Configurar una función que se llamará cuando se complete la solicitud
+    xhr.onload = function () {
+        if (xhr.status >= 200 && xhr.status < 300) {
+            // La solicitud se completó con éxito
+            alert('Los datos se han guardado correctamente en el servidor.');
+        } else {
+            // La solicitud falló
+            alert('Error al enviar los datos al servidor.');
+        }
+    };
+
+    // Enviar la solicitud con los datos del formulario
+    xhr.send(formData);
 });
 
 // Obtener una referencia al botón de envío
