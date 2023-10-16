@@ -7,7 +7,7 @@ $productosData = array();
 if (isset($_GET['producto'])) {
     $producto = $_GET['producto'];
 
-    $query = "SELECT Descripcion FROM productos WHERE NombreProducto = ?";
+    $query = "SELECT Descripcion FROM productos WHERE ID_Producto =  1 ";
 
     // Preparar la consulta
     $stmt = $mysqli->prepare($query);
@@ -15,7 +15,7 @@ if (isset($_GET['producto'])) {
     echo "Consulta SQL: " . $query;
 
     if ($stmt) {
-        $stmt->bind_param("s", $producto);
+        $stmt->bind_param("s", $productos);
         $stmt->execute();
         $stmt->bind_result($descripcion);
 
