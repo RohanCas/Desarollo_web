@@ -1,11 +1,12 @@
 <?php
-// Crear conexión
-$conn = new mysqli("localhost", "root", "", "medovsecurity");
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "medovsecurity";
 
-// Verificar la conexión
-if ($conn->connect_error) {
-    die("Conexión fallida: " . $conn->connect_error);
-} else {
-    echo "Conexión exitosa a la base de datos.";
+$mysqli = new mysqli($servername, $username, $password, $database);
+
+if ($mysqli->connect_error) {
+    die("Error de conexión a la base de datos: " . $mysqli->connect_error);
 }
 ?>
