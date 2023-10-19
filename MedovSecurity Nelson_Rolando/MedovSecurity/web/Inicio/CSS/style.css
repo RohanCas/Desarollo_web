@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif ;
+}
+
+
+body {
+    background-image: url('/DesarrolloPHP/MedoVSecurity Nelson_Rolando/MedovSecurity/web/Inicio/imagenes/ima4/138687-macaco-gorila-mono_del_mundo_antiguo-3840x2160.jpg'); 
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+}
+
+.conteiner {
+    display: flex;
+    background-color: #43424272;
+    height: 700px;
+    width: 1000px;
+    box-shadow: 0 0 20px rgb(202, 161, 16) ;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 25px;   
+}
+
+.form {
+    padding: 30px 80px;
+    width: 50%;
+    flex-direction: column;
+}
+
+.form h2 {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin-bottom:25px ;
+
+}
+
+
+.form p {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+}
+
+
+label{
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+
+
+.box {
+    border: 0;
+    background-color: rgba(233, 223, 223, 0.372);
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+.submit {
+    background-color: rgb(123, 67, 228);
+    border: 0;
+    padding: 15px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 25px;
+    width: 250px ;
+    margin-top: -25px;
+}
+
+.info {
+    padding: 50px;
+
+}
+
+.img-1 {
+    width: 350px;
+    margin-bottom: 75px;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.iconos {
+    display: flex;
+    margin-bottom: 31px;
+}
+
+.iconos img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.iconos p {
+    font-size: 14px;
+    color:rgb(255, 255, 255);
+}
+
+@media (max-width:990px){
+    .conteiner{
+      width: 350px;
+      height: 800px; 
+      margin-top: 50px; 
+    }
+    .info {
+       display: none; 
+    }
+    .form {
+        width: 100%;
+    }
+}
+
+#foo {
+
+    text-align: center;
+    padding: 10px;
+    background-color: #1b1c1d;
+    color: #8b8e90;
+}

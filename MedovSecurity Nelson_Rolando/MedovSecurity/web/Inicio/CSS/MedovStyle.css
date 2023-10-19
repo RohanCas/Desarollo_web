@@ -1,0 +1,148 @@
+body {
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px; 
+    color: black;
+    position: fixed;
+    width: 100%;
+}
+
+.img {
+    border-radius: 50%; 
+    width: 80px; 
+    height: 80px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.img:hover {
+    transform: rotate(360deg);
+    box-shadow: 0px 0px 10px #f4d800;
+}
+
+ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    width: 100%; /* Hacemos que el menú ocupe el ancho completo de la página */
+}
+
+li {
+    text-align: center;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #43424272;
+    text-decoration: none;
+}
+
+.div2 {
+    width: 1358px;
+    height: 60px; 
+    background: linear-gradient(135deg, #fffffff4, #000000); 
+    color: white;
+    border-radius: 4px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.div2:hover {
+    background: linear-gradient(135deg, #ffffff, #000000); ; 
+}
+
+.info {
+    padding: 330px 0; /* Ajusta este valor según tu diseño */
+    text-align: center;
+    background-image: url('/DesarrolloPHP/MedoVSecurity Nelson_Rolando/MedovSecurity/web/Inicio/imagenes/Fondo-fotor-2023101914332.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.info p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.section-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    background-color: #000000;
+    padding: 0;
+    border-top: 1px solid #00c3ff;
+    border-bottom: 1px solid #00c3ff;
+}
+
+.home-icon {
+    margin-right: 6px;
+}
+
+contact-icon {
+    margin-right: 6px;
+}
+
+services-icon {
+    margin-right: 6px;
+}
+
+products-icon {
+    margin-right: 6px;
+}
+
+.section-title {
+    text-align: center;
+}
+
+td {
+    text-align: left;
+}
+
+#foo {
+    position: relative;
+    margin-top: -1%;
+    text-align: center;
+    padding: 10px;
+    background-color: #1b1c1d;
+    color: #8b8e90;
+}
+
+@media (max-width: 768px) {
+    .info {
+        padding: 85% 0;
+    }
+    
+    .about-services {
+        padding: 10% 0;
+    }
+}

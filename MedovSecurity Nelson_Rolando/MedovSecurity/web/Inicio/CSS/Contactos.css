@@ -1,0 +1,78 @@
+body {
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.contact{
+    padding: 274px 0;
+    text-align: center;
+    background-image: url('/DesarrolloPHP/MedoVSecurity Nelson_Rolando/MedovSecurity/web/Inicio/imagenes/ima3/pexels2-fotor-20231019143741.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255); 
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+/* Estilos para los enlaces */
+.back-link,
+.custom-link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #f4d800;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.back-link:hover,
+.custom-link:hover {
+    background-color: #43424272;
+    border: 1px solid #00a6ff; /* Cambiar el borde al hacer hover */
+    color: #fff; /* Cambiar el color del texto al hacer hover */
+}
+
+#foo {
+    position: relative;
+    margin-top:  -1%;
+    text-align: center;
+    padding: 10px;
+    background-color: #1b1c1d;
+    color:#8b8e90;
+
+}
+
+.social-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #007bff; /* Cambia el color de los iconos */
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    /* Estilos para pantallas más pequeñas */
+    .contact {
+        padding: 287px 0; /* Ajusta el relleno para pantallas más pequeñas */
+    }
+}
+

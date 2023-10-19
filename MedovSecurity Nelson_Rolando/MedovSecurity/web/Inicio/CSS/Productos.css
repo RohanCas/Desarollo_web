@@ -1,0 +1,177 @@
+/* Estilos generales */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/DesarrolloPHP/MedoVSecurity Nelson_Rolando/MedovSecurity/web/Inicio/imagenes/ima2/6203606.jpg');
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Estilos para la sección principal */
+.section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 90%; /* Reduzca el ancho máximo para pantallas más pequeñas */
+    width: 150%;
+    padding: 50px;
+    background: linear-gradient(15deg, #ffffff43, #57555561,#0000002a ,#000000);  
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #353739; /* Sombra en gris oscuro */
+    border-top: 1px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+/* Estilos para el título */
+.section-title {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* Estilos para la lista de productos */
+.products ul {
+    list-style: none;
+    padding: 0;
+    color: #ffffff;
+}
+
+.products li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+.products li img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+/* Estilos para los enlaces */
+.back-link,
+.custom-link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #f4d800;
+    background-color: #555555; /* Fondo en gris medio */
+    color: #fff;
+    border-radius: 20px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.back-link:hover,
+.custom-link:hover {
+    background-color: #43424272;
+    border: 1px solid #00a6ff; /* Cambiar el borde al hacer hover */
+    color: #fff; /* Cambiar el color del texto al hacer hover */
+}
+
+
+/* En tu archivo Productos.css o en un estilo incorporado en el encabezado */
+.product-description {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.088);
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#foo {
+    text-align: center;
+    padding: 10px;
+    background-color: #353739; /* Fondo en gris oscuro */
+    color: #8b8e90;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Estilos para las filas de la tabla */
+table tr {
+    border-bottom: 1px solid #ffffff;
+}
+
+/* Estilos para las celdas de la tabla */
+table td, table th {
+    padding: 10px;
+    vertical-align: top;
+    color: #ffffff;
+}
+
+/* Estilos para la imagen del producto */
+.product-image {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+/* Estilos para la descripción del producto */
+table td:nth-child(2) {
+    width: 60%; /* Ajusta el ancho de la columna de descripción según tus necesidades */
+}
+
+/* Estilos para la tabla de productos */
+.product-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.product-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    background: linear-gradient(15deg, #ffffff43, #57555561,#0000002a ,#000000);  
+    color: white;
+    margin-bottom: 10px;
+}
+
+.product-image {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+/* Estilos para la descripción del producto */
+.descripcion {
+    position: absolute;
+    top: 0;
+    left: 0; /* Cambia "right" a "left" para moverlo al lado izquierdo */
+    width: 30%; /* Ajusta el ancho según tus necesidades */
+    background: linear-gradient(15deg, #ffffff43, #57555561,#0000002a ,#000000);  
+    color: white;
+    padding: 10px;
+    height: 30%; /* Ajusta la altura según tus necesidades */
+    overflow-y: auto; /* Agrega scroll si es necesario */
+}
+
+/* Consultas de medios para tamaños de pantalla más pequeños */
+@media screen and (max-width: 768px) {
+    table td:nth-child(2) {
+        width: 100%; /* Ajusta el ancho para pantallas más pequeñas */
+    }
+}

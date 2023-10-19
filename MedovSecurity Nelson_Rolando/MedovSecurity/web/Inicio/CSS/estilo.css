@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/DesarrolloPHP/MedoVSecurity Nelson_Rolando/MedovSecurity/web/Inicio/imagenes/1-1.jpg');
+    -webkit-filter: grayscale(4);
+    filter: grayscale(4);
+    background-position: center center;
+    text-align: center;
+    font-size: 4vw; /* Tamaño de fuente relativo al ancho de la pantalla */
+    color: #8b8e90;
+    height: 100vh;
+}
+
+#t-4 {
+    position: relative;
+    margin-top: 10%;
+    
+}
+
+
+
+#titulo {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.cuadro {
+    -webkit-filter: grayscale(4);
+    filter: grayscale(4);
+    margin: 0;
+    max-width: 100%;
+    background-color: gray;
+    color: #fff;
+    padding: 2%;
+    text-align: center;
+    opacity: 7;
+}
+
+#foo {
+    text-align: center;
+    padding: 10px;
+    background-color: #1b1c1d;
+    color: #8b8e90;
+}
+
+.boton {
+    background-color: gray;
+    text-align: center;
+    margin-top: -2%;
+    display: inline-block; /* Asegura que el botón sea un elemento en línea */
+    border-radius: 25px;
+}
+
+.letra { 
+    font-style: italic;
+    color: black;
+}
+
+/* Estilos personalizados para los botones */
+button {
+    background-color: #007BFF; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+    margin: 5px; /* Espacio entre botones */
+    font-size: 18px; /* Tamaño de fuente */
+}
+
+/* Estilos para el botón "Aumentar Tamaño de Fuente" */
+#aumentar-tamano-btn {
+    background-color: #17a2b8; /* Cambia el color de este botón */
+}
+
+/* Estilos para el botón "Disminuir Tamaño de Fuente" */
+#disminuir-tamano-btn {
+    background-color: #dc3545; /* Cambia el color de este botón */
+}
+
+
+
+/* Media Query para pantallas más pequeñas, como teléfonos */
+@media (max-width: 768px) {
+    .container {
+        font-size: 6vw; /* Tamaño de fuente más grande para pantallas pequeñas */
+    }
+
+    .cuadro {
+        padding: 5%;
+    }
+
+    .boton {
+        width: 80%;
+    }
+}
+
+
+.has-1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.has-1 img {
+    max-width: 100%;
+    width: auto;
+    height: 200px; /* Altura fija deseada para las imágenes */
+    margin-right: 10px; /* Espacio entre las imágenes (opcional) */
+}
