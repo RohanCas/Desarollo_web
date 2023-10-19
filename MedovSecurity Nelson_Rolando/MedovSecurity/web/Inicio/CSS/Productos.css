@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('/DesarrolloPHP/MedoVSecurity Nelson_Rolando/MedovSecurity/web/Inicio/imagenes/ima2/6203606.jpg');
+    background-image: url('../imagenes/ima2/6203606.jpg');
     justify-content: center;
     align-items: center;
     background-size: cover;

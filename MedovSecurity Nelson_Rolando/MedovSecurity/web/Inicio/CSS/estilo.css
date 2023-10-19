@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('/DesarrolloPHP/MedoVSecurity Nelson_Rolando/MedovSecurity/web/Inicio/imagenes/1-1.jpg');
+    background-image: url('../imagenes/1-1.jpg');
     -webkit-filter: grayscale(4);
     filter: grayscale(4);
     background-position: center center;

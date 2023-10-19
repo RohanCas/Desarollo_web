@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('/DesarrolloPHP/MedoVSecurity Nelson_Rolando/MedovSecurity/web/Inicio/imagenes/ima/pexels-fotor-.jpg'); 
+    background-image: url('../imagenes/ima/pexels-fotor-.jpg'); 
     background-size: cover;
     background-position: center;
     min-height: 900px; /* Ajusta la altura según tus necesidades */

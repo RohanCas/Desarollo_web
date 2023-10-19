@@ -1,5 +1,5 @@
 <?php
-require_once("/DesarrolloPHP/MedoVSecurity Nelson_Rolando/MedovSecurity/web/Inicio/PHP/conexion.php");
+require_once("conexion.php");
 
 // Arreglo para almacenar las descripciones
 $productosData = array();

@@ -73,7 +73,7 @@ li a:hover {
 .info {
     padding: 330px 0; /* Ajusta este valor según tu diseño */
     text-align: center;
-    background-image: url('/DesarrolloPHP/MedoVSecurity Nelson_Rolando/MedovSecurity/web/Inicio/imagenes/Fondo-fotor-2023101914332.jpg'); 
+    background-image: url('../imagenes/Fondo-fotor-2023101914332.jpg'); 
     background-size: cover;
     background-position: center;
     color: white; 

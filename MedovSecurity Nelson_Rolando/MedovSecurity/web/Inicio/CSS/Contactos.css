@@ -8,7 +8,7 @@ body {
 .contact{
     padding: 274px 0;
     text-align: center;
-    background-image: url('/DesarrolloPHP/MedoVSecurity Nelson_Rolando/MedovSecurity/web/Inicio/imagenes/ima3/pexels2-fotor-20231019143741.jpg'); 
+    background-image: url('../imagenes/ima3/pexels2-fotor-20231019143741.jpg'); 
     background-size: cover;
     background-position: center;
     color: rgb(255, 255, 255); 

@@ -22,7 +22,7 @@ form.addEventListener('submit', function (event) {
 
     // Crear una solicitud AJAX
     const xhr = new XMLHttpRequest();
-    xhr.open('POST', '/DesarrolloPHP/MedoVSecurity Nelson_Rolando/MedovSecurity/web/Inicio/PHP/guardar_datos.php', true);
+    xhr.open('POST', '../PHP/guardar_datos.php', true);
 
     // Configurar una función que se llamará cuando se complete la solicitud
     xhr.onload = function () {

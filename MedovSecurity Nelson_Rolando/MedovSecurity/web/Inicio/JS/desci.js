@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
         image.addEventListener('mouseover', () => {
             const productName = image.alt;
 
-            fetch('/DesarrolloPHP/MedoVSecurity Nelson_Rolando/MedovSecurity/web/Inicio/HTMLS/productos.json')
+            fetch('../HTMLS/productos.json')
                 .then(response => response.json())
                 .then(data => {
                     if (data[productName]) {

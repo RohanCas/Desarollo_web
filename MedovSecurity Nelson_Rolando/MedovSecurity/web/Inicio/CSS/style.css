@@ -7,7 +7,7 @@
 
 
 body {
-    background-image: url('/DesarrolloPHP/MedoVSecurity Nelson_Rolando/MedovSecurity/web/Inicio/imagenes/ima4/138687-macaco-gorila-mono_del_mundo_antiguo-3840x2160.jpg'); 
+    background-image: url('../imagenes/ima4/138687-macaco-gorila-mono_del_mundo_antiguo-3840x2160.jpg'); 
     text-align: center;
     background-size: cover;
     background-position: center;
