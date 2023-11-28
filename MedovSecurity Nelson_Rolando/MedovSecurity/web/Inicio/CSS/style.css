@@ -7,7 +7,7 @@
 
 
 body {
-    background-image: url('../imagenes/ima4/138687-macaco-gorila-mono_del_mundo_antiguo-3840x2160.jpg'); 
+    background-image: url('../imagenes/morado.jpg'); 
     text-align: center;
     background-size: cover;
     background-position: center;
@@ -19,7 +19,7 @@ body {
     background-color: #43424272;
     height: 700px;
     width: 1000px;
-    box-shadow: 0 0 20px rgb(202, 161, 16) ;
+    box-shadow: 0 0 20px rgb(173, 3, 139) ;
     margin: auto;
     margin-top: 150px;
     border-radius: 25px;   
@@ -120,9 +120,9 @@ label{
 }
 
 #foo {
-
+    margin-top: 35px;
     text-align: center;
     padding: 10px;
-    background-color: #1b1c1d;
-    color: #8b8e90;
+    background-color: rgb(123, 67, 228);
+    color: #fff;
 }
